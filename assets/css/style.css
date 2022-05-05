@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+/*============Header============*/
+
+.cara{
+    background-image: url("../imagenes/vientoligero.png");
+	background-size: cover;
+	background-position: left;
+    height: 284px; 
+}
+
+.cara .titulo{
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: normal;
+	font-size: 70px;
+	color: #FFCD48;
+	-webkit-text-stroke:1px #1D2F3D;
+	margin-left: 10px;
+}
+
+.cara p{
+	font-weight: bolder;
+	margin-left: 10px;
+	margin-top: 170px;
+	font-size: 20px;
+	color: #1D2F3D;
+}
+
+/*============Barra de navegacion============*/
+
+.navegacion {
+	background: #FFCD48;
+    font-weight: bolder;
+}
+
+.navegacion a {
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: black;
+	transition: .5s ease-out all;
+}
+
+.navegacion a:hover {                /* a:hover me ayuda con la transicion*/
+	background: #1D2F3D;
+	color: #fff;
+}
+
+.contenedor {                       /* alineo el contenido*/
+	width: 85%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*============MAIN============*/
+
+.productos{
+	width: 60%;
+}
+main .productos p {
+	margin-bottom: 40px;
+	line-height: 30px;
+	color: #525151;
+}
+
+main .productos .titulo {
+    font-family:'Times New Roman', Times, serif;
+	font-weight: normal;
+    font-weight: bolder;
+	padding-top: 40px;
+}
+
+.imagen{
+	padding: 12px;
+}
+
+/*============aside============*/
+
+aside {
+	width: 25%;
+	margin: 30px 20px 20px 0;
+	height: 100%;
+	background: #1D2F3D;
+	padding: 10px;
+	border-radius: 5px;
+	position: sticky;
+	top: 10px;
+	text-align: center;
+}
+
+aside .titulo {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: normal;
+	font-size: 24px;
+	color: #f2f2f2;
+	padding-bottom: 5px;
+}
+
+aside .indice a {
+	display: block;
+	margin-bottom: 10px;
+	color: #FFCD48;
+}
+
+/*============footer============*/
+
+footer p{
+	text-align: center;
+}
